@@ -28,7 +28,6 @@ phi4-speech-ad-detection/
 ├── train.py                  # Fine-tuning entry point
 ├── test.py                   # Standalone inference / evaluation entry point
 ├── requirements.txt
-├── pyproject.toml            # Package metadata, Ruff, and pytest config
 │
 ├── src/                      # Core library
 │   ├── constants.py          # Classification prompt, class labels, special tokens
