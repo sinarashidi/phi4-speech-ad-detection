@@ -1,0 +1,33 @@
+# Core deep learning
+torch==2.6.0
+torchvision==0.21.0
+
+# Transformers ecosystem
+transformers==4.48.2
+accelerate==1.3.0
+peft==0.13.2
+datasets==3.6.0
+
+# Flash Attention (optional but recommended for training)
+flash_attn==2.7.4.post1
+
+# Audio processing
+soundfile==0.13.1
+librosa
+
+# Metrics
+scikit-learn
+
+# Numerical
+scipy==1.15.2
+
+# Data I/O
+pandas
+openpyxl
+pillow==11.1.0
+
+# Training monitoring
+tensorboardX
+
+# Misc
+backoff==2.2.1

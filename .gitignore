@@ -1,0 +1,51 @@
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+build/
+dist/
+*.egg-info/
+
+# --- Machine Learning & Data ---
+# Never track raw data or large model weights
+data/
+datasets/
+inputs/
+outputs/
+*.csv
+*.parquet
+*.jsonl
+
+# PyTorch/ML Model Checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optional: Ignore all notebook output if using version control for code only
+# *.ipynb
+
+# --- Hardware & Logs ---
+# NVIDIA/CUDA logs
+core.*
+*.log
+lightning_logs/
+runs/
+.tensorboard/
+wandb/
+mlruns/
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
