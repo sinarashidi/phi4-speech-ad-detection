@@ -50,8 +50,8 @@ phi4-speech-ad-detection/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/<your-username>/speechdx-phi4.git
-cd speechdx-phi4
+git clone https://github.com/sinarashidi/phi4-speech-ad-detection.git
+cd phi4-speech-ad-detection
 ```
 
 ### 2. Create a virtual environment
